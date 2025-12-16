@@ -44,7 +44,7 @@
             <icon>icon.png</icon>
         </assets>
     </extension>
-</addon><addon id="skin.arctic.fuse.mod" name="Arctic Fuse Mod" provider-name="Officer KD6-3.7" version="0.9.109">
+</addon><addon id="skin.arctic.fuse.2.modP3" name="Arctic Fuse 2 Mod Palantir 3" provider-name="Gisy7" version="1.0.0">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.1.28" />
