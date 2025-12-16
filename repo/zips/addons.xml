@@ -1,50 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.officerkd637" name="Officer KD6-3.7's Repository" version="1.0" provider-name="OfficerKD637">
-    <extension point="xbmc.addon.repository" name="Example Repository">
-       <dir>
-            <info compressed="false">
-                https://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/addons.xml
-            </info>
-            <checksum>
-                https://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/addons.xml.md5
-            </checksum>
-            <datadir zip="true">
-                https://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/
-            </datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Officer KD6-3.7's Repository</summary>
-        <description>A repository for Officer KD6-3.7's skins</description>
-        <disclaimer />
-        <platform>all</platform>
-        <assets>
-            <icon>icon.jpg</icon>            
-        </assets>
-    </extension>
-</addon><addon id="resource.font.extrafonts" name="Extra Fonts" version="0.0.1" provider-name="Officer KD6-3.7">
-    <requires>
-        <import addon="kodi.resource" version="1.0.0" />
-    </requires>
-    
-    <extension point="kodi.resource.font" compile="false" />
-    
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Extra fonts</summary>
-        <description lang="en_GB" />
-        <language />
-        <platform>all</platform>
-        <license>Apache-2.0</license>
-        <forum />
-        <email />
-        <source />
-        <news />
-        <disclaimer />
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon><addon id="skin.arctic.fuse.2.modP3" name="Arctic Fuse 2 Mod Palantir 3" provider-name="Gisy7" version="1.0.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<!-- SKIN -->
+<addon id="skin.arctic.fuse.2.modP3"
+       name="Arctic Fuse 2 Mod Palantir 3"
+       version="1.0.0"
+       provider-name="Gisy7">
+
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.1.28" />
@@ -55,26 +16,24 @@
         <import addon="resource.font.robotocjksc" version="0.0.3" />
         <import addon="resource.font.extrafonts" version="0.0.1" />
     </requires>
-    <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
+
+    <extension point="xbmc.gui.skin"
+               debugging="false"
+               defaultthemename="Textures.xbt"
+               effectslowdown="1">
         <res aspect="16:9" default="true" folder="1080i" width="1920" height="1080" />
-        <res aspect="3:2" default="false" folder="1080i" width="1620" height="1080" />
-        <res aspect="4:3" default="false" folder="1080i" width="1440" height="1080" />
-        <res aspect="16:10" default="false" folder="1080i" width="1728" height="1080" />
-        <res aspect="17:9" default="false" folder="1080i" width="2040" height="1080" />
-        <res aspect="21:9" default="false" folder="1080i" width="2520" height="1080" />
-        <res aspect="19.5:9" default="false" folder="1080i" width="2340" height="1080" />
-        <res aspect="18:9" default="false" folder="1080i" width="2160" height="1080" />
     </extension>
+
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">A minimalist row based skin</summary>
-        <description lang="en">Arctic Fuse Mod offers a few minor enhancements over the original skin. A big thanks to jurialmunkey for everything!</description>
+        <summary>A minimalist row based skin</summary>
+        <description>Arctic Fuse 2 Palantir 3 Mod</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
-        <forum />
-        <source />
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon></addons>
+</addon>
+
+</addons>
