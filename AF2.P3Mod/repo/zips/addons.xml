@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+
+<!-- REPOSITORIO -->
+<addon id="repository.gisy7" name="Gisy7 Repository" version="1.0" provider-name="Gisy7">
+    <extension point="xbmc.addon.repository" name="Gisy7 Repository">
+        <dir>
+            <info compressed="false">
+                https://raw.githubusercontent.com/Gisy7/AF2.P3Mod-/master/repo/zips/addons.xml
+            </info>
+            <checksum>
+                https://raw.githubusercontent.com/Gisy7/AF2.P3Mod-/master/repo/zips/addons.xml.md5
+            </checksum>
+            <datadir zip="true">
+                https://raw.githubusercontent.com/Gisy7/AF2.P3Mod-/master/repo/zips/
+            </datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Gisy7 Repository</summary>
+        <description>Repository for Arctic Fuse P3 Mod</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
+<!-- SKIN -->
+<addon id="skin.arctic.fuse.p3mod"
+       name="Arctic Fuse P3 Mod"
+       provider-name="Gisy7"
+       version="1.0.0">
+
+    <requires>
+        <import addon="xbmc.gui" version="5.17.0" />
+        <import addon="script.skinvariables" version="2.1.28" />
+        <import addon="script.texturemaker" version="0.2.9" />
+        <import addon="plugin.video.themoviedb.helper" version="6.11.7" />
+        <import addon="resource.images.weathericons.white" version="0.0.1" />
+        <import addon="resource.images.studios.coloured" version="0.0.1" />
+        <import addon="resource.font.robotocjksc" version="0.0.3" />
+    </requires>
+
+    <extension point="xbmc.gui.skin"
+               debugging="false"
+               defaultthemename="Textures.xbt"
+               effectslowdown="1">
+        <res aspect="16:9" default="true" folder="1080i" width="1920" height="1080" />
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Arctic Fuse P3 Mod</summary>
+        <description lang="en">
+            Modified version of Arctic Fuse 2.
+        </description>
+        <platform>all</platform>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+</addons>
