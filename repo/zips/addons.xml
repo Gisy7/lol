@@ -14,7 +14,6 @@
         <import addon="resource.images.weathericons.white" version="0.0.1" />
         <import addon="resource.images.studios.coloured" version="0.0.1" />
         <import addon="resource.font.robotocjksc" version="0.0.3" />
-        <import addon="resource.font.extrafonts" version="0.0.1" />
     </requires>
 
     <extension point="xbmc.gui.skin"
@@ -25,7 +24,7 @@
     </extension>
 
     <extension point="xbmc.addon.metadata">
-        <summary>A minimalist row based skin</summary>
+        <summary>Skin adaptada a Palantir 3</summary>
         <description>Arctic Fuse 2 Palantir 3 Mod</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
