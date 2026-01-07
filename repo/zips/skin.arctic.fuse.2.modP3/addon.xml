@@ -31,7 +31,7 @@
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <assets>
             <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+            <!-- <fanart>fanart.jpg</fanart> -->
         </assets>
     </extension>
 </addon>
