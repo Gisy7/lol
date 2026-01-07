@@ -9,14 +9,14 @@
         <dir>
             <!-- URL del addons.xml de tu repositorio -->
             <info compressed="false">
-                https://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/addons.xml
+                https://raw.githubusercontent.com/Gisy7/lol/main/repo/zips/addons.xml
             </info>
             <checksum>
-                https://raw.githubusercontent.com/Gisy7/lol/main/repo/zips/addons.xml.md5
+                http://raw.githubusercontent.com/Gisy7/lol/main/repo/zips/addons.xml.md5
             </checksum>
             <!-- Carpeta donde Kodi encontrará los ZIPs de los addons -->
             <datadir zip="true">
-                https://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/
+                https://raw.githubusercontent.com/Gisy7/lol/main/repo/zips/
             </datadir>
         </dir>
     </extension>
