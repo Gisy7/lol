@@ -10,13 +10,13 @@
         <extension point="xbmc.addon.repository" name="Palantir 3 Mod repositorio">
             <dir>
                 <info compressed="false">
-                    https://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/addons.xml
+                    http://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/addons.xml
                 </info>
                 <checksum>
-                    https://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/addons.xml.md5
+                    http://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/addons.xml.md5
                 </checksum>
                 <datadir zip="true">
-                    https://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/
+                    http://raw.githubusercontent.com/Gisy7/lol/master/repo/zips/
                 </datadir>
             </dir>
         </extension>
