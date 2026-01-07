@@ -4,7 +4,6 @@
            name="Arctic Fuse 2 - Palantir 3 Mod"
            version="1.0.0"
            provider-name="Gisy7">
-
         <requires>
             <import addon="xbmc.gui" version="5.17.0"/>
             <import addon="script.skinvariables" version="2.1.28"/>
@@ -14,7 +13,6 @@
             <import addon="resource.images.studios.coloured" version="0.0.1"/>
             <import addon="resource.font.robotocjksc" version="0.0.3"/>
         </requires>
-
         <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
             <res aspect="16:9" default="true" folder="1080i" width="1920" height="1080"/>
             <res aspect="3:2" default="false" folder="1080i" width="1620" height="1080"/>
@@ -25,7 +23,6 @@
             <res aspect="19.5:9" default="false" folder="1080i" width="2340" height="1080"/>
             <res aspect="18:9" default="false" folder="1080i" width="2160" height="1080"/>
         </extension>
-
         <extension point="xbmc.addon.metadata">
             <summary lang="en">A minimalist row based skin</summary>
             <description lang="en">Arctic Fuse 2 Mod para Palantir 3, con mejoras y ajustes sobre la skin original.</description>
@@ -33,7 +30,6 @@
             <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
             <assets>
                 <icon>icon.png</icon>
-                <!-- <fanart>fanart.jpg</fanart> -->
             </assets>
         </extension>
 
