@@ -1,35 +1,4 @@
-<addon id="skin.arctic.fuse.2.modP3" name="Arctic Fuse 2 - Palantir 3 Mod" version="1.0.0" provider-name="Gisy7">
-    <requires>
-        <import addon="xbmc.gui" version="5.17.0"/>
-        <import addon="script.skinvariables" version="2.1.28"/>
-        <import addon="script.texturemaker" version="0.2.9"/>
-        <import addon="plugin.video.themoviedb.helper" version="6.12.1"/>
-        <import addon="resource.images.weathericons.white" version="0.0.1"/>
-        <import addon="resource.images.studios.coloured" version="0.0.1"/>
-        <import addon="resource.font.robotocjksc" version="0.0.3"/>
-    </requires>
-    <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
-        <res aspect="16:9" default="true" folder="1080i" width="1920" height="1080"/>
-        <res aspect="3:2" default="false" folder="1080i" width="1620" height="1080"/>
-        <res aspect="4:3" default="false" folder="1080i" width="1440" height="1080"/>
-        <res aspect="16:10" default="false" folder="1080i" width="1728" height="1080"/>
-        <res aspect="17:9" default="false" folder="1080i" width="2040" height="1080"/>
-        <res aspect="21:9" default="false" folder="1080i" width="2520" height="1080"/>
-        <res aspect="19.5:9" default="false" folder="1080i" width="2340" height="1080"/>
-        <res aspect="18:9" default="false" folder="1080i" width="2160" height="1080"/>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">A minimalist row based skin</summary>
-        <description lang="en">Arctic Fuse 2 Mod para Palantir 3, con mejoras y ajustes sobre la skin original.</description>
-        <platform>all</platform>
-        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="skin.arctic.fuse.2.modP3" name="Arctic Fuse 2 - Palantir 3 Mod" provider-name="Gisy7" version="2.12.5">
+<addon id="skin.arctic.fuse.2.modP3" name="Arctic Fuse 2 - Palantir 3 Mod" provider-name="Gisy7" version="1.0.0">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="script.skinvariables" version="2.1.28" />
